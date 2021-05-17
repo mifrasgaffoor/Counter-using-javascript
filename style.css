@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Josefin Sans", sans-serif;
+}
+.maindiv {
+  height: 70vh;
+  width: 70%;
+  background-color: #e34e34;
+  margin: auto;
+  margin-top: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 10px;
+}
+
+.btndiv {
+  height: 10vh;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btndiv > button {
+  height: 40px;
+  width: 90px;
+  border: none;
+  color: #e34e34;
+  padding: 5px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+  font-weight: 900;
+  margin: 5px 4px;
+  border-radius: 19px;
+  cursor: pointer;
+  border: 1.5px solid black;
+}
+button:hover {
+  background-color: #581b10;
+  color: #fff;
+}
+
+.number {
+  font-size: 80px;
+  font-weight: bold;
+  height: 20vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.h1h1 {
+  height: 70vh;
+  width: 100%;
+  font-size: 70px;
+  font-weight: bold;
+  color: white;
+}
